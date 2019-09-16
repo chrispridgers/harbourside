@@ -5,19 +5,102 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
-	
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/73ed761579.js"></script>
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 	<title>Harbourside</title>
 </head>
+<header>
+	<nav>
+		<ul>
+			<li><a href="#" aria-label="Shows"><span class="sr-only">Shows</span></a></li>
+			<li><a href="#" aria-label="Music"><span class="sr-only">Music</span></a></li>
+			<li><a href="#" aria-label="Newsletter"><span class="sr-only">Newsletter</span></a></li>
+		</ul>
+	</nav>
+</header>
 <body>
-	<header>
-	
-	</header>
-	<main>
-		
-	</main>
+	<! -- Jumbotron image of band -- !>
+	<section class="header">
+		<div class="container-fluid no-margin no-padding">
+			<div class="row">
+				<div class="col-12">
+					<img class="img-fluid" src="assets/img/headerimage.jpg">
+				</div>
+			</div>
+		</div>
+	</section>
+	<! -- /Jumbotron image --!>
+	<! -- Shows --!>
+	<section class="shows">
+		<div class="container-fluid texture">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="uppercase section-header orange">Shows</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+	<! -- /Shows -- !>
+	<! -- Music --!>
+	<section class="music">
+		<div class="container-fluid bg-orange texture">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="uppercase section-header white">Music</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+	<! -- /Music -- !>
+	<! -- Newsletter -- !>
+	<section class="newsletter">
+		<div class="container-fluid texture">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="uppercase section-header orange">Newsletter Signup</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<form class="newsletter-form">
+					  <div class="form-group">
+					    <label for="emailaddress">Email address</label>
+					    <input type="email" class="form-control text-center" id="emailaddress" aria-describedby="email" placeholder="Enter email">
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Password</label>
+					    <input type="password" class="form-control text-center" id="exampleInputPassword1" placeholder="Password">
+					  </div>
+					  <button type="submit" class="btn btn-newsletter-form">Sign Up!</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<! -- /Newsletter -- !>
+	<! -- footer -- !>
 	<footer>
-		
+		<div class="container-fluid bg-orange padding-bottom texture">
+			<div class="row">
+				<div class="col-12 text-center">
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-youtube"></i>
+					<i class="fab fa-soundcloud"></i>
+					<i class="fab fa-spotify"></i>
+					<i class="fab fa-itunes-note"></i>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 text-center">
+					<p class="d-inline">Privacy Policy</p>
+					<p class="d-inline">Terms and Conidtions</p>
+					<p class="d-inline">Site Map</p>
+				</div>
+			</div>
+		</div>
 	</footer>
+	<! -- /footer -- !>
 </body>
 </html>
