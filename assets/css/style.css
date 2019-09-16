@@ -374,7 +374,7 @@ textarea {
 	margin: 0;
 }
 
-section {
+.padding-bottom-section {
 	margin-bottom: 25px;
 }
 
@@ -432,7 +432,7 @@ body {
 /*************** Header Image ***************/
 
 .header-image {
-	height: 100vh;
+	/*** Add fade loading for image ****/
 }
 
 /*************** Newsletter ******************/
