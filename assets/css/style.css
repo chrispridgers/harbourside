@@ -420,6 +420,7 @@ textarea {
 body {
 	font-family: "Muli", sans-serif;
 	background-color: #fafafa;
+	overflow-x: hidden !important;
 }
 
 .uppercase {
